@@ -1,0 +1,1 @@
+This is a basic Ruby on Rails application that utilizes D3 to visualize food allergy data. Users fill out a form each day, selecting any common allergens that they ate, as well as whether or not they experienced any allergy symptoms. The applications translates this data into dots, color-coded based on each food and representing the correlation of symptoms.
