@@ -1,0 +1,55 @@
+<%= form_for :log do |f|%>
+
+	<div class="allergen">
+    <%= f.label "Milk" %>
+    <%= f.check_box :milk %> <br />
+	</div>
+
+	<div class="allergen">
+    <%= f.label "Eggs" %>
+    <%= f.check_box :eggs %> <br />
+	</div>
+
+	<div class="allergen">
+    <%= f.label "Peanuts" %> 
+    <%= f.check_box :peanuts %> <br />
+	</div>
+
+	<div class="allergen">
+    <%= f.label "Tree Nuts*" %>
+    <%= f.check_box :tree_nuts %> <br />
+	</div>
+
+	<div class="allergen">
+    <%= f.label "Soy" %>
+    <%= f.check_box :soy %> <br />
+	</div>
+
+	<div class="allergen">
+    <%= f.label "Wheat**" %>
+    <%= f.check_box :wheat %> <br />
+	</div>
+
+	<div class="allergen">
+    <%= f.label "Fish" %> 
+    <%= f.check_box :fish %> <br />
+	</div>
+
+	<div class="allergen">
+    <%= f.label "Shellfish" %> 
+    <%= f.check_box :shellfish %> <br />
+	</div>
+
+	<div class="symptoms">
+    <%= f.label "Symptoms?" %> 
+    <%= f.check_box :symptoms %> <br />
+	</div>
+
+	<div class='submit'>
+		<%= f.submit %>
+	</div>
+
+<% end %>
+
+*Tree nuts include walnuts, almonds, pine nuts, Brazil nuts, and pecans
+**And other grains with gluten, including barley, rye, and oats
